@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 
 header{
     width: 100%;
@@ -12,21 +15,61 @@ header{
 
 .navegacion{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
-    color: white;
     display: flex;
+    justify-content:space-between;
     align-items: center;
-    height: 60px;
-}
-.nav-img{
-    margin-left: 10px;
-    width: 100px;  
 }
 
-.nav-menu{
-    padding-right: 50px;
-    padding-left: 250px;
-    list-style: none;
+.navegacion > ul {
     display: flex;
-   justify-content: space-between;
+    list-style-type: none;
+    font-size: 2rem;
+}
+/* Sacar la linea de abajo del texto y cambiarle el color al texto */
+ul li a {
+    text-decoration: none;
+    color: #f1a75a;
+}
+ul>li{
+    margin: 1rem;
+}
+.logo{
+    height: 8vh;
+    width: 5vw;
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+.container-sucursales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 2rem;
+}
+.suc-item{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.suc-item p {
+    color: black;
+    text-decoration: solid underline;
+}
+main{
+    background-color: #f1a75a;
+}
+main h1{
+    text-align: center;
+    font-size: 4rem;
+    text-decoration:solid;
+    color: #ad1703;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
 }
