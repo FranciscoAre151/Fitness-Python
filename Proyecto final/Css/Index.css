@@ -40,6 +40,7 @@ ul>li{
     margin: 1rem;
 }
 
+/* Pagina Sucursales */
 .container-sucursales{
     display: grid;
     grid-template-columns: 1fr 1fr;
