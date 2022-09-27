@@ -115,3 +115,63 @@ footer{
     padding: 20px;
     font-size: 1.5rem;
 }
+
+/* Pagina Contacto*/
+#h1_contacto {
+text-align: center;
+color: #fbfbfb;
+}
+.Form{
+    width: 460px; 
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;  
+  padding-top: 10px;
+  padding-bottom: 20px;  
+  background-color: orange; 
+  padding-left: 30px; 
+}
+.input-form{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #000000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.text-form {
+    background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #000000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+.label-form{
+    font-size: 15px;
+    color: #fbfbfb;
+}
+.boton{
+    color: #fbfbfb;
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #e7890f; 
+  border-color: #000000; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
