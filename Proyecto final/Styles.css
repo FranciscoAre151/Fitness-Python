@@ -48,8 +48,7 @@ ul>li{
     grid-template-columns:  repeat(3,1fr);
     grid-template-rows: 1fr 0.25fr 0.25fr 1fr;
     row-gap: 2rem;
-    background-color: gray;
-}
+    }
 .container-plan h2 {
     font-size: 3rem;
     color: #f1a75a;
@@ -84,6 +83,10 @@ ul>li{
 
 
 /* Pagina Sucursales */
+.body-sucursal{
+    background-repeat: no-repeat;
+    background-image:url(./img/personal-weight-training-in-the-gym-royalty-free-image-1568020980.jpg)
+}
 .container-sucursales{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -94,9 +97,10 @@ ul>li{
 .suc-item{
     font-size: 2.5rem;
     text-align: center;
+    color: #fbfbfb;
 }
 .suc-item p {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: solid underline;
 }
 
@@ -104,7 +108,7 @@ ul>li{
     text-align: center;
     font-size: 4rem;
     text-decoration:solid;
-    color: #ad1703;
+    color: #ee9e09;
     padding: 2rem;
     margin-bottom: 1rem;
 }
@@ -118,9 +122,14 @@ footer{
 }
 
 /* Pagina Contacto*/
+.body-contacto{
+    background-image: url(./img/1366_2000.jpeg);
+    background-repeat: round;
+}
 #h1_contacto {
 text-align: center;
 color: #fbfbfb;
+
 }
 .Form{
     width: 460px; 
