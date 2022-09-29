@@ -25,11 +25,14 @@ header{
     display: flex;
     list-style-type: none;
     font-size: 2rem;
+    flex-wrap: wrap;
 }
+
 /* Sacar la linea de abajo del texto y cambiarle el color al texto */
 ul li a {
     text-decoration: none;
     color: #f1a75a;
+    font-family: 'Rubik', sans-serif;
 }
 ul>li{
     margin: 1rem;
@@ -48,7 +51,7 @@ ul>li{
     grid-template-columns:  repeat(3,1fr);
     grid-template-rows: 1fr 0.25fr 0.25fr 1fr;
     row-gap: 2rem;
-    }
+}
 .container-plan h2 {
     font-size: 3rem;
     color: #f1a75a;
@@ -97,10 +100,11 @@ ul>li{
 .suc-item{
     font-size: 2.5rem;
     text-align: center;
-    color: #fbfbfb;
+    color: black;
+    
 }
 .suc-item p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: solid underline;
 }
 
@@ -108,17 +112,9 @@ ul>li{
     text-align: center;
     font-size: 4rem;
     text-decoration:solid;
-    color: #ee9e09;
+    color: #d48a01;
     padding: 2rem;
     margin-bottom: 1rem;
-}
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-    padding: 20px;
-    font-size: 1.5rem;
 }
 
 /* Pagina Contacto*/
@@ -185,3 +181,20 @@ color: #fbfbfb;
   width: 420px;   
   cursor: pointer;
 }
+ /* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+/* media query */
+
+@media screen and (max-width:600px){
+.container-plan{
+    grid-template-columns:  repeat(1,1fr);
+    }
+} 
