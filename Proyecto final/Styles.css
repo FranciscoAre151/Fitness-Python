@@ -281,8 +281,18 @@ footer{
 
 /* media query */
 
+/*celulares*/
 @media screen and (max-width:600px){
-.container-plan{
+.section-plan{
     grid-template-columns:  repeat(1,1fr);
-    }
-} 
+}
+
+}
+
+/*tablets */
+@media screen and (max-width:768px){
+}
+
+/*mayores a tablets*/
+@media screen and (min-width:768px){
+}
