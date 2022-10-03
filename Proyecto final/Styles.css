@@ -48,7 +48,7 @@ ul>li{
 
 .body-plan{
     background-repeat: round;
-    background-image: url(https://www.cronista.com/files/image/339/339060/60e5d1b053dc2.jpg);
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/claves-gym-1577207015.jpg);
     background-size: 100%;
 }
 
@@ -57,9 +57,9 @@ ul>li{
     font-size: 4rem;
     color: #f18108;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.9);
-    margin-left: 750px;
-    margin-right: 750px;
+    background: rgba(255, 255, 255, 0.7);
+    margin-left: 450px;
+    margin-right: 450px;
     margin-top: 20px;
     margin-bottom: 60px;
     border-radius: 25px;
@@ -82,7 +82,7 @@ ul>li{
 
 .plan-item{
     text-align: center;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 27%);
     padding: 32px 30px;
