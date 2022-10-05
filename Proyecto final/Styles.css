@@ -44,6 +44,37 @@ ul>li{
     margin: 1rem;
 }
 
+/*Pagina Inicio*/
+
+#main_inicio{
+    background-color: #000000;
+}
+#h1_inicio{
+    text-align: center;
+    font-size: 5rem;
+    color: #f18108;
+}
+
+
+.section-inicio{
+    display: grid;
+    grid-template-rows: repeat(2,0.5fr);    
+    justify-items: center;
+}
+
+.inicio-item{
+    background-color: #000000;
+    font-size: 3rem;
+    color: #fff solid;
+    text-transform: uppercase;
+}
+
+.inicio-item p{
+    font-size: 3rem;
+    color: #fff solid;
+    text-transform: uppercase;
+}
+
 /* Pagina Elegi tu plan */
 
 .body-plan{
