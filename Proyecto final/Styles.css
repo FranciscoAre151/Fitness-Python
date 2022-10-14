@@ -57,19 +57,28 @@ ul>li{
 
 
 .section-inicio{
-    display: grid;
-    grid-template-rows: repeat(2,0.5fr);    
-    justify-items: center;
+    width: 100%;
+  height: 700px;
+    background: url(./img/gym.jpg) no-repeat center ;
+    background-color: #fff;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    font-size: 18px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+
 }
 
 .inicio-item{
-    background-color: #000000;
+    background-color: #f3e7e7;
     font-size: 3rem;
     color: #fff solid;
     text-transform: uppercase;
 }
 
-.inicio-item p{
+.inicio-item p{se
     font-size: 3rem;
     color: #fff solid;
     text-transform: uppercase;
