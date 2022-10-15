@@ -8,21 +8,25 @@ formulario.addEventListener("submit", (e) => {
     e.preventDefault();
 
     if (!validarTexto(nombre.value)) {
-        return console.log("Nombre invalido: Solo letras");
+        console.log("Nombre invalido: Solo letras");
+        return alert("Nombre invalido: Solo letras");
     }
 
     if (!validarTexto(apellido.value)) {
-        return console.log("Apellido invalido: Solo letras");
+        console.log("Apellido invalido: Solo letras");
+        return alert("Apellido invalido: Solo letras");
     }
 
     if (!validarMail(mail.value)) {
-        return console.log("Formato email no válido");
+        console.log("Formato email no válido");
+        return alert("Formato email no válido");
     }
     if (!validarTelefono(telefono.value)) {
-        return console.log("Telefono invalido: Solo números");
+       console.log("Telefono invalido: Solo números");
+       return alert("Telefono invalido: Solo números");
     }
 
-    console.log("Formulario enviado con éxito");
+   return alert("Formulario enviado con éxito");
 });
 
 function validarTexto(texto){
@@ -35,7 +39,7 @@ function validarTexto(texto){
 }
 
 function validarMail(mail){
-    const regMail = /^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$/;
+    const regMail = /^[A-Za-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$/;
 
     if(!regMail.test(mail)){
         return false;
