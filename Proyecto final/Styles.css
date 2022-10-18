@@ -113,6 +113,15 @@ ul>li{
     animation: rotBGimg 3s linear infinite;
     transition: all 0.2s linear;
   }
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
     
   .card::after {
     content: '';
@@ -145,6 +154,7 @@ button {
     transition: all 0.3s;
     margin-left: 550px;
     margin-right: 550px;
+    text-decoration: none;
    }
    
    button::after {
