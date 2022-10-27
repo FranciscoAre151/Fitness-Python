@@ -529,3 +529,72 @@ footer{
         grid-template-columns:  repeat(1,1fr);
     }
 }
+
+/* API vacaciones */
+.container-hol{
+    margin: 60px 20px auto;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 6px;
+    background-color: rgba(231, 236, 241,0.3);
+}
+.container-hol h2{
+    margin: 30px 100px;
+    padding: 30px;
+    color: rgb(186, 101, 11);
+    text-decoration: underline;
+}
+.api-hol{
+    padding: 20px 0;
+    font-size: 24px;
+}
+.calendar{
+    width: 900px;
+    padding: 10px;
+    margin: 20px auto;
+    align-items: center;
+}
+.calendar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px;
+}
+.month {
+  padding: 20px 20px;
+  background: #1abc9c;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+.week-container li{
+    display: inline-block;
+    text-align: center;
+    width: 11.5%;
+    font-size:18px;
+}
+.weekdays {
+    background-color:#ddd;
+    color: #333;
+}
+.days {
+    background: #eee;
+    color: #444;
+}
+.days li{
+    padding: 5px 0;
+}
+.marcar {
+    padding: 5px;
+    color: white
+}
+.active {
+  background: #1abc9c;
+}
+.negative {
+    background: #df362d; 
+}
+.marcar:hover {
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 27%);
+}
